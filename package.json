@@ -1,0 +1,17 @@
+{
+  "name": "flask-parcel-starter",
+  "version": "0.0.0",
+  "description": "A starter for web apps using Flask and Parcel",
+  "author": "Niels Lerche Sørensen <nielslerches@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "yarn run build",
+    "build": "parcel build static/src/index.js -d static/dist",
+    "watch": "parcel watch static/src/index.js -d static/dist"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.3.1"
+  }
+}
