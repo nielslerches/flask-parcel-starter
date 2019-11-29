@@ -3,10 +3,10 @@ yarn-debug.log*
 yarn-error.log*
 node_modules/
 .cache/
-static/dist/
 *.pyc
 __pycache__/
 *.sublime-workspace
 .venv
 __pycache__
 *.pyc
+static/dist
