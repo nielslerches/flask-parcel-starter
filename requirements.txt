@@ -1,6 +1,6 @@
-Click==7.0
-Flask==1.1.1
+click==7.1.1
+flask==1.1.2
 itsdangerous==1.1.0
-Jinja2==2.10.3
-MarkupSafe==1.1.1
-Werkzeug==0.16.0
+jinja2==2.11.1
+markupsafe==1.1.1
+werkzeug==1.0.1
